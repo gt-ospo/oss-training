@@ -15,3 +15,17 @@ You can look at the training notebooks using the file browser in GitHub.  If Git
 ### Running them
 
 All training notebooks require the `jupyter` Python package.  Some may require additional packages (such as `bash_kernel`).  See the intro section of each notebook for details.  
+
+#### Running notebooks using Google Collab
+
+The notebooks here can also be loaded using [Google Colab](https://colab.research.google.com/), a hosted Jupyter notebok service from Google. To run these notesbooks using Colab, please follow these steps:
+
+1) Go to https://colab.research.google.com/. You may need to log in with your Google account to use Colab. 
+2) Copy the https link under the **Code** tab.
+    `https://github.com/gt-ospo/oss-training.git`
+3) On Colab, go to `File -> Open Notebook`
+4) Go to the `Github` tab and paste the repo https URL. Select the `Search` icon.
+5) Select the notebook you wish to run.
+<img src="https://github.com/gt-ospo/oss-training/blob/871134059b5de221d294fe9788033e7fb558bfd2/img/general/google-colab-open-notebook.png" width="600" height="333">  
+7) You can then use the `Runtime` tab to run the notebook.
+<img src="https://github.com/gt-ospo/oss-training/blob/871134059b5de221d294fe9788033e7fb558bfd2/img/general/google-colab-notebook-interface.png" width="600" height="350"> 
