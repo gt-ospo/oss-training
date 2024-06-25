@@ -133,6 +133,33 @@ Not mutually-exclusive.  Within one project, different policies may be decided t
 
 ### 4. Electoral
 
+### 5. Single-vendor Backed
+
+A company may decide to open source a project for a variety of reasons
+- Releasing open source code that seems useful to the community
+- Providing an early version of a product to gauge user interest and engagement. 
+  * E.g., Kubernetes was released by Google and user interest led to the creation of the Cloud Native Computing Foundation
+- Creating a "freemium" version of a product
+
+Community contributions are welcomed but the vision for the project is typically controlled by one stakeholder
+- Over time, governance may shift to another model as community engagement grows
+
+#### Examples
+
+- Kubernetes: https://kubernetes.io/community/
+- Android
+- MySQL
+
+Hard to find docs re: governance...
+
+#### Pros
+- Similar to Founder-Leader but with a larger amount of resources behind development
+- Quality of open source code benefits from professional software engineer support
+
+#### Cons
+- Similar to Founder-Leader, a company's vision for a project may differ from that of the community
+- Lack of investment from the vendor can cause the project to stagnate and lose community involvement
+
 ### 6. Foundation-backed
 
 Open-source projects often hit a glass ceiling, with many of the following attributes:
