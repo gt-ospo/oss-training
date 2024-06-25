@@ -52,26 +52,33 @@ Many recent OSS advocates describe 5 models:
 
 1. Do-ocracy (a.k.a Meritocracy)
 2. Founder-leader (a.k.a, Benevolent Dictator for Life, )
-3. Technical council
+3. Self-appointed technical council
 4. Electoral
 5. Vendor-backed
 6. Foundation-backed
+
+Not mutually-exclusive.  Within one project, different policies may be decided through different models.  
 
 ### 1. Do-ocracy
 
 * The people doing the work are the ones making decisions
   - Often no formal governance.  Just implicit governance in group's interactions
   - Usually still have contribution guidelines (peer review of code, etc.)
-* Pros
-  - Easy for small teams with few stakeholders
-* Cons
-  - Decision-making usually does not scale with more contributors and stakeholders
-  - Can be difficult for newcomers to integrate with the project
-* I couldn't find an example of a large successful project that does this
+
+#### Example
+
+* Apache Web Server: https://httpd.apache.org/ABOUT_APACHE.html
+  
+#### Pros
+* Easy for small teams with few stakeholders
+
+#### Cons
+* Decision-making usually does not scale with more contributors and stakeholders
+* Can be difficult for newcomers to integrate with the project
 
 ### 2. Founder-leader (BDFL)
 
-* One person (or a small group) who started the project is the ultimate decision-maker
+* One person who started the project is the ultimate decision-maker
 * Leader determines projects priorities and vision, settles disputes among other
     contributors, and decides which contributions are merged
 
@@ -94,3 +101,34 @@ Many recent OSS advocates describe 5 models:
     recourse, and projects can get forked.
   - Founders' personal views may affect public perception of project.
 
+### 3. Self-appointed technical council
+
+- A small group determine's project priorities, decides which
+  contributions will be merged, ...
+- The council also decides who will be added to the council
+- A midpoint between Meritocracy and Founder-leader model
+- Many names for group: technical council, steering committee, ...
+
+#### Examples
+
+* The Apache Software Foundation: https://www.apache.org/foundation/governance/
+  - Several councils with different roles/responsibilities.  Mostly business, stakeholder relations, etc.
+  - Individual software projects are meritocratic
+* OpenAPI: https://www.openapis.org/participate/how-to-contribute/governance
+  - A open standard, not an actual piece of software
+  - Several councils with different roles/responsibilities: Technical Steering Committee,
+    Technical Oversight Committee, Business Governance Board
+* Councils are quite common with open standards
+
+#### Pros
+
+* Scales better for larger projects with many stakeholders
+* Decision-making is efficient
+
+#### Cons
+
+* Member selection process may exclusionary
+* May create self-reinforcing leadership structure
+* May create disconnect between leadership and community
+
+### 4. Electoral
