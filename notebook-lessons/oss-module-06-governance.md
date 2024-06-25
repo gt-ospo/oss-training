@@ -132,3 +132,34 @@ Not mutually-exclusive.  Within one project, different policies may be decided t
 * May create disconnect between leadership and community
 
 ### 4. Electoral
+
+### 6. Foundation-backed
+
+Open-source projects often hit a glass ceiling, with many of the following attributes:
+
+* It’s not clear how a project is funded or how it operates, or there is a perception that it primarily benefits a single vendor
+* There isn’t a neutral owner of assets, such as the project name, logo, domain names, social accounts, and other assets
+* The copyright holder of the project is a single entity, giving them unilateral control to change the license and intellectual property policies without the community’s input
+* Vendors leveraging the technology don’t feel they have a space to fairly collaborate, especially if they are competitors
+* The legal, fiduciary, and financial aspects of the project are managed by one organization without transparency or given processes
+
+
+#### Examples
+
+* Python Language Foundation:  https://www.python.org/psf/about/
+* Rust Foundation:  https://foundation.rust-lang.org/about/
+* PHP Foundation:  https://thephp.foundation/foundation/
+* Ruby Central:  https://thephp.foundation/foundation/
+
+#### Pros
+
+* Solves the above-mentioned issues
+
+#### Cons
+* It's a lot of work to form a legal entity
+  - Funding: The bove-mentioned projects are non-profit entities backed by donations and/or corporate sponsorship
+  - Staffing: Usually need committed staff to operate
+* Solution: Can integrate your project in an umbrella council or foundation
+  - Apache Software Foundation
+  - Linux Foundation
+
