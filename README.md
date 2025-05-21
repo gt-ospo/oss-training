@@ -12,7 +12,7 @@ The training modules are Jupyter Notebooks.  You can read them like a book, or y
 
 You can look at the training notebooks using the file browser in GitHub.  If GitHub's Jupyter notebook viewer misbehaves, you can use [nbviewer](https://nbviewer.org/).  Here are direct links to the training notebooks through nbviewer:
 
-- [Module 01: Git basics](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/oss-module-01-git.ipynb)
+- [Module 00: Interacting with Git and GitHub](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-00-interacting-with-git.ipynb)
 
 ### Running them
 
