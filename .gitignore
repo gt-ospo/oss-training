@@ -1,3 +1,9 @@
 .idea
 .DS_Store
 *.drawio.bkp
+.ipynb_checkpoints/
+.coverage/
+gradebook/
+pyproject.toml
+test/
+venv/
