@@ -1,31 +1,29 @@
 # Security
 
-## Reporting a Vulnerability
+## How to report a security vulnerability
 
-<!-- [BEGIN] Submit Vulnerability -->
-We prefer that you use the [GitHub mechanism for privately reporting a vulnerability](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability#privately-reporting-a-security-vulnerability). Under the [main repository's security tab](https://github.com/gt-sse-center/RepoAuditor/security), in the left sidebar, under "Reporting", click "Advisories", click the "New draft security advisory" button to open the advisory form.
-<!-- [END] Submit Vulnerability -->
+Please use the GitHub mechanism for privately reporting a vulnerability that is described [here](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability#privately-reporting-a-security-vulnerability).
 
-**How to report a security vulnerability:**
+1. Go to [this repository's security tab](https://github.com/gt-ospo/oss-training/security)  
+    - In the top menu bar, select "Security"
+    - Select the "Report a vulnerability" button
 
-1. **Contact:** Please use the [GitHub mechanism for privately reporting a vulnerability](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability#privately-reporting-a-security-vulnerability).
-    1. Under [this repository's security tab](https://github.com/gt-ospo/oss-training/security)...
-        - ...in the left sidebar...
-        - ...under "Reporting"...
-        - ...click "Advisories"
-    2. Click the "New draft security advisory" button to open the advisory form.
+<img src="https://github.com/gt-ospo/oss-training/blob/main/img/general/github-security-reporting.png" alt="gh_security_reporting" width="600"/>
 
-2. **Response Time:** We will acknowledge your report within 24 hours and provide an initial assessment within 72 hours.
-3. **Fixes:** Once the issue is confirmed, we will work to issue a fix as soon as possible and will keep you informed of our progress.
+2. Click the "New draft security advisory" button to open the advisory form - an example of this form is shown below. Fill in as much information as you currently know and whatever you think is relevant for the vulnerability you've observed.
 
-## Vulnerability Disclosure Policy
+<img src="https://github.com/gt-ospo/oss-training/blob/e716c18c4059651bdc4d6f3a90f23806c1102a2b/img/general/github-security-draft-advisory.png" alt="gh_vulnerability_draft" width="600"/>
 
-We commit to working with security researchers and the community to verify and address any potential vulnerabilities. We ask that the following guidelines be followed to ensure an effective resolution:
+3. Once you have filled in the draft security advisory form, select "Create draft security advisory" at the bottom of the page to submit the form.
+    - The admins of the repository then will receive your report and can discuss the vulnerability in a secure fashion with you. 
 
-1. **Non-Disclosure:** Do not disclose the vulnerability publicly until we have had a reasonable chance to fix it. We will inform you when the issue is resolved.
-2. **Cooperation:** We may need additional information from you to effectively address the issue. Please cooperate with us during this process.
+## After reporting a vulnerability
 
-Thank you for helping us keep our project secure!
+Upon receiving a vulnerability report, we will commit to working with you to find a suitable fix or mitigation strategy. We will work with you according to the the following mutual expectations:
+
+- **Response Time:** We will acknowledge your report within 24 hours and provide an initial assessment within 72 hours.
+- **Fixes:** Once the issue is confirmed, we will work to issue a fix as soon as possible and will keep you informed of our progress.
+- **Non-Disclosure Policy:** Please do not disclose the vulnerability publicly until we have had a reasonable chance to fix it. We will work with you and inform you when the issue is resolved.
 
 ## Patches
-We gladly welcome patches to fix such vulnerabilities! See [CONTRIBUTING.md](CONTRIBUTING.md) for information about contributions.
+We gladly welcome patches to fix security vulnerabilities! See [CONTRIBUTING.md](CONTRIBUTING.md) for information about contributing to this repository.
