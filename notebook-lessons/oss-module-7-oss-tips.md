@@ -10,6 +10,7 @@ In this lesson, attendees will learn the following:
 ## Sources
 * Eddie Jaoude [ Open Source Tips ](https://eddiejaoude.github.io/book-open-source-tips/), 2025
 * JLC Izquierdo [ A Survey of Software Foundations in Open Source](https://arxiv.org/pdf/2005.10063), 2020
+* Open Source Project template [https://www.usdigitalresponse.org/resources/cms-open-source-software]
 
 ## Open Source Foundations
 Most Open Source Software (OSS) projects rely on volunteer developer's contribution to evolve and largely depends on its developer retaintion and community building. But many OSS projects lack formal models to structure and manage the community around them. Software foundations can 
@@ -50,10 +51,11 @@ This session contains some common DOs and Don'ts for Open Source software, these
 
 * Start every project with at least a `README.md`, which includes project description & quickstart guide
 * Use syntax hightlighting in documentation
-* Add `CONTRIBUTING.md` in the `.github` folder of your project root direcotry, which succinctly communicates the maintainer's guidelines, examples such as (puppet project's contributor guide)[https://github.com/puppetlabs/.github/blob/main/CONTRIBUTING.md]
-* Add `CODE_OF_CONDUCT.md` in the root of your project to ensure a safe diverse & inclusive, examples such as (puppet project's CODE Of Conduct)[https://github.com/puppetlabs/puppet/blob/main/CODE_OF_CONDUCT.md]
+* Add `CONTRIBUTING.md` in the `.github` folder of your project root direcotry, which succinctly communicates the maintainer's guidelines, examples such as [puppet project's contributor guide](https://github.com/puppetlabs/.github/blob/main/CONTRIBUTING.md)
+* Add `CODE_OF_CONDUCT.md` in the root of your project to ensure a safe diverse & inclusive, examples such as [puppet project's CODE Of Conduct](https://github.com/puppetlabs/puppet/blob/main/CODE_OF_CONDUCT.md)
 * Add GitHub Issue & Pull Request templates namely `ISSUE_TEMPLATE.md` in the `.github` folder of your project root directory, which helps keeping the project consistent & reminds 
-* Chose a license, GT OSPO creates a flowchart on helping you identify an approriate license at (here)[https://ospo.cc.gatech.edu/open-source-software-licensing/], you can find more useful guidance at (here)[https://choosealicense.com/]
+* Chose a license, GT OSPO creates a flowchart on helping you identify an approriate license at ([here](https://ospo.cc.gatech.edu/open-source-software-licensing/), you can find more useful guidance at [here](https://choosealicense.com/)
+* Add a .gitignore file at the root of repository to avoid checking in non-source code files, e.g. `__py_cache__`
 
 ### Contriute to OSS projects
 * Make Git commits small and atomic, limit commit message subject line to $50$ characters, no period at the end of subject line, put longer discription in the message body, wrap the body at $72$ characters, use the body to explain *why* not *how*
@@ -70,6 +72,7 @@ This session contains some common DOs and Don'ts for Open Source software, these
 * Utilize GitHub Labels, Milestones, Releases/Tags, align Release versions with Milestones
 * Use Branching to work with a wider team, project main branch (`mastter` or `develop`), everything must go via a feature branch and a Pull Request
 
+
 ### Things to avoid
 * Big bang project, finishing the project in a weekend, then ignore it for the next year. 
 * God commit, is difficult to understand and review
@@ -78,6 +81,19 @@ This session contains some common DOs and Don'ts for Open Source software, these
 * Weakest Dependency
 
 
+## Open Source Projects Maturity Model
+[Open Source Repository Maturity Model] (https://github.com/dsacms/repo-scaffolder/blob/main/maturity-model-tiers.md) presents a framework that determines what and how much documentation is needed based on the project's size, community involvement, and goals.
+The framework consists of five tiers (0-4), each representing different stages of a projects maturity:
+* [Tier 0] (https://github.com/DSACMS/repo-scaffolder/blob/main/tier0/README.md) includes experimental private repositories usually with single developer
+* [Tier 1] (https://github.com/DSACMS/repo-scaffolder/blob/main/tier1/README.md) includes an informational or historical project that has been released publicly once, without any planned future updates. Main purpose of a Tier 1 project is to share knowledge.
+* [Tier 2] (https://github.com/DSACMS/repo-scaffolder/blob/main/tier2/README.md) is a collaborative project within a team, which is not meant for broad public contribution but rather for internal collaboration. E.g. 
+* [Tier 3] (https://github.com/DSACMS/repo-scaffolder/blob/main/tier3/README.md) is an open collaboration effort with limited external contributions. Althought it is open source, the direction and maintenance are still controlled by a smaller group or team.
+* [Tier 4] (https://github.com/DSACMS/repo-scaffolder/blob/main/tier4/README.md) is a fully open and collaborative project that operates under a community governance model. The governance structure is open to a broad community
+
+There is also a commandline tool which can guide users through a series of questions and recommends the appropriate templates should be used based on the tiers - [CookieCutter](https://github.com/DSACMS/repo-scaffolder?tab=readme-ov-file#need-help-picking-a-tier)
+
+## Open Source Project template 
+Here you can find [template files](https://github.com/DSACMS/repo-scaffolder/tree/main/tier4/%7B%7Bcookiecutter.project_slug%7D%7D) you can use for your project.  
 
 ## Successful OSS Projects
 
