@@ -28,6 +28,7 @@ The Apache Software Foundation (ASF) is one of the largest and most influential 
 It offers the infrastructure, public relation and travel assistant, legal and trademark servervice.  Project entries the foundation through incubator, there are 60 projects in the incububator. Mentoring is built in incubator. 
 
 ### [Linux Foundation](https://www.linuxfoundation.org/)
+The Linux Foundation (LF) is a non-profit technology consortium that supports and promotes the growth of open source software, particularly in enterprise, infrastructure, and emerging technologies. 
 It mainly acts as umbrella for a number of smaller foundations, where inner organizations generally work in a stand-alone way (e.g., *OpenAPI initiative* or *Kubernetes*)
 
 ### [CNCF - Cloud Native Computing Foundation](https://www.cncf.io/)
@@ -46,15 +47,16 @@ The Eclipse Foundation supports innovation in open source by providing:
     - Developer tools like Eclipse IDE, Che, and Theia
     - Focus on key areas: IDEs, IoT, automotive, Java, and cloud-native
 ### Python Software Foundation
+The Python Software Foundation (PSF) is a non-profit organization that manages and supports the Python programming language and its global community. It plays a critical role in maintaining Python’s development, promoting its use, and supporting its community through funding, infrastructure, and outreach.
 
 | Foundation Name | Focuse Area | Open Source Hosting | Govenance     | Community Building| Training      | Financial and Legal Support| Promotion and Advocacy|
 | ------------------- | ---------- | -------------| ------------ | ----------- | ---------- |---------- | ---------- |
 | Apache Foundation | HTTP Server, Hadoop, Kafka, Maven, Tomcat|Yes, incubating|No|No|No|Yes|No|
-| Linux Foundation||||||||
+| Linux Foundation|Linux, Cloud, Security, Blockchain, AI, networking|Yes|No|Yes|Yes|Yes|Yes|
 | CNCF Foundation | Cloud native|Yes,incubating|No|Yes|Yes|No|No|
 | Gnome Foundation | GNOME desktop |Yes|Yes|Yes|No| Yes|Yes|
 | Eclipse Foundation | IDE, IoT and Edge, Cloud, Java Runtime |Yes|No|Yes|No|No|No|
-
+| Python Software Foundation | Python Language | Yes | Yes| Yes| No|Yes|Yes|
                   
 
 
