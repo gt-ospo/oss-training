@@ -11,6 +11,9 @@ In this lesson, attendees will learn the following:
 * Eddie Jaoude [ Open Source Tips ](https://eddiejaoude.github.io/book-open-source-tips/), 2025
 * JLC Izquierdo [ A Survey of Software Foundations in Open Source](https://arxiv.org/pdf/2005.10063), 2020
 * [Open Source Project Maturity Model](https://www.usdigitalresponse.org/resources/cms-open-source-software)
+* [Schmidt Academy for Software Engineering](https://sase.caltech.edu/resources/index.html)
+* [Linux Professional Institution Open Source Essiential Training Material](https://learning.lpi.org/en/learning-materials/050-100/)
+* [pyOpenSci Peer Review](https://www.pyopensci.org/)
 
 ## Open Source Foundations
 Most Open Source Software (OSS) projects rely on volunteer developer's contribution to evolve and largely depends on its developer retaintion and community building. But many OSS projects lack formal models to structure and manage the community around them. Software foundations can 
