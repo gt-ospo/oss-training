@@ -46,7 +46,7 @@ The Eclipse Foundation supports innovation in open source by providing:
     - Industry collaboration through working groups
     - Developer tools like Eclipse IDE, Che, and Theia
     - Focus on key areas: IDEs, IoT, automotive, Java, and cloud-native
-### Python Software Foundation
+### [Python Software Foundation](https://www.python.org/psf-landing/)
 The Python Software Foundation (PSF) is a non-profit organization that manages and supports the Python programming language and its global community. It plays a critical role in maintaining Python’s development, promoting its use, and supporting its community through funding, infrastructure, and outreach.
 
 | Foundation Name | Focuse Area | Open Source Hosting | Govenance     | Community Building| Training      | Financial and Legal Support| Promotion and Advocacy|
@@ -110,11 +110,11 @@ The framework consists of five tiers (0-4), each representing different stages o
 
 There is also a commandline tool which can guide users through a series of questions and recommends the appropriate templates should be used based on the tiers - [CookieCutter](https://github.com/DSACMS/repo-scaffolder?tab=readme-ov-file#need-help-picking-a-tier)
 
-## Open Source Project template 
+## Open Source Project template
 Here you can find [template files](https://github.com/DSACMS/repo-scaffolder/tree/main/tier4/%7B%7Bcookiecutter.project_slug%7D%7D) you can use for your project.  
 
 ## Successful OSS Projects
-
+Here are some successful OSS projects which we can learn their successful tips. 
 ### Linux
 
 ### emacs/vim
