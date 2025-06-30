@@ -23,27 +23,22 @@ Most Open Source Software (OSS) projects rely on volunteer developer's contribut
 
 However, there is a high variety of services and development strategies offered by software foundations. 
 
-### Apache Foundation
+### [Apache Foundation](https://www.apache.org/)
 It acts as a Subversion Coprporation.  
-It offers the infrastructure, public relation and travel assistant, legal and trademark servervice,  Project entries the foundation through incubator, there are 60 projects in the incububator. Mentoring is built in incubator. 
+It offers the infrastructure, public relation and travel assistant, legal and trademark servervice.  Project entries the foundation through incubator, there are 60 projects in the incububator. Mentoring is built in incubator. 
 
-### Linux Foundation
+### [Linux Foundation](https://www.linuxfoundation.org/)
 It mainly acts as umbrella for a number of smaller foundations, where inner organizations generally work in a stand-alone way (e.g., *OpenAPI initiative* or *Kubernetes*)
 
 ### CNCF - Cloud Native Computing Foundation
-It is part of Linux Foundation, its mission is to make cloud native computing ubiquitous
+It is part of Linux Foundation and plays major role in he cloud and DevOps ecosystem, its mission is to make cloud native computing ubiquitous. It is a vendor-neutral, non-profit organization that promotes the adoption of cloud-native technologies. It provides open source project hosting and governance; education and certification; community building and ecosystem development; security and best practices; research, landscape and tools. 
 
-### GNOME
+### [GNOME](https://foundation.gnome.org/)
+The GNOME Foundation is a non-profit organization that supports the development and promotion of the GNOME desktop environment, a popular free and open-source graphical user interface used primarily on Linux systems. It provides technical and infrastructure support; Financial and Legal Support; Community Building; Promotion and Advocacy. 
 
 ### Eclipse
 
 ### Python Software Foundation
-
-### Plone Foundation
-
-### OSI
-
-### FSF
 
 
 
