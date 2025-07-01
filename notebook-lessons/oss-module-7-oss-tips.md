@@ -21,7 +21,10 @@ Most Open Source Software (OSS) projects rely on volunteer developer's contribut
 * define internal regulations for activities, membership and decision-making process
 * provide the grounds for open and collaborative software development through mentoring 
 
-However, there is a high variety of services and development strategies offered by software foundations. 
+However, many foundations exist primarily to promote the free software movement or handle legal aspects, without engaging in daily project operations; foundations like Apache and Linux differ significantly in governance and support models; OSS projects still need to establish their own governance and contribution policies, even when under a foundation.
+There is a high variety of services and development strategies offered by software foundations. 
+
+
 
 ### [Apache Foundation](https://www.apache.org/)
 The Apache Software Foundation (ASF) is one of the largest and most influential open-source organizations in the world. It provides support, governance, and infrastructure for hundreds of open-source projects and communities. It acts as a Subversion Coprporation.  
