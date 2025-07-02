@@ -70,6 +70,7 @@ This session contains some common DOs and Don'ts for Open Source software, these
 
 ### Start OSS Project with the following steps: 
 
+* Use [git](https://swcarpentry.github.io/git-novice/) to maintain the project's history  
 * Start every project with at least a `README.md`, which includes project description & quickstart guide
 * Use syntax hightlighting in documentation
 * Add `CONTRIBUTING.md` in the `.github` folder of your project root direcotry, which succinctly communicates the maintainer's guidelines, examples such as [puppet project's contributor guide](https://github.com/puppetlabs/.github/blob/main/CONTRIBUTING.md)
@@ -78,7 +79,7 @@ This session contains some common DOs and Don'ts for Open Source software, these
 * Chose a license, GT OSPO creates a flowchart on helping you identify an approriate license at [here](https://ospo.cc.gatech.edu/open-source-software-licensing/), you can find more useful guidance at [here](https://choosealicense.com/)
 * Add a .gitignore file at the root of repository to avoid checking in non-source code files, e.g. `__py_cache__`
 
-### Contriute to OSS projects
+### Contribute to OSS projects
 * Make Git commits small and atomic, limit commit message subject line to $50$ characters, no period at the end of subject line, put longer discription in the message body, wrap the body at $72$ characters, use the body to explain *why* not *how*
 * Keep GitHub Issue/Task small, add list of task in a sub task checklist by 
 ```
@@ -92,6 +93,8 @@ This session contains some common DOs and Don'ts for Open Source software, these
 * Automate everything through Tests, CI/CD
 * Utilize GitHub Labels, Milestones, Releases/Tags, align Release versions with Milestones
 * Use Branching to work with a wider team, project main branch (`mastter` or `develop`), everything must go via a feature branch and a Pull Request
+* Ensure the clean code style and variable and method names [link](https://www.freecodecamp.org/news/the-junior-developers-guide-to-writing-super-clean-and-readable-code-cd2568e08aae/), and best practices for Coding, Organization, and Documentation [link](https://mitcommlab.mit.edu/broad/commkit/best-practices-for-coding-organization-and-documentation/)
+* Keep documenting the important decisions about how the software is constructed, [best practice on documenting project](https://helpjuice.com/blog/software-documentation)
 
 
 ### Things to avoid
