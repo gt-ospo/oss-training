@@ -124,17 +124,17 @@ Here are some successful OSS projects which we can learn their successful tips.
 ### Linux
 It succeeds through its open source philosophy and it is free to use and modify and heavily depends on community-driven development:
 - Structure of the Linux Community, with trusted maintainers responsible for specific subsystems and approves the patches; thousands of developer worldwide from individuals to employees of companies like intel, Red Hat, Google and IBM
-- Well defined development process, developers submit patches via Linux Kernel Mailing List (LKML); Maintainer review patches for qualify, style and correctness through automated tools and CI system test patches; Merging and Release Cycle
+- Well defined development process, developers submit patches via Linux Kernel Mailing List (LKML); Maintainer review patches for qualify, style and correctness through automated tools and CI system test patches; Merging into maintainer trees first and eventually to Linus Torvald (Linux's createor)'s mainline tree and Release Cycle roughly every 9-10 weeks
 - Tools and Platforms used, Linux was the reason Git was created; use LKML for discussion and patch submission; use Bugzilla, KernelCI, Patchwork for bug tracking, testing and patch management
 - Community and Governance, influence is earned through quality contributions; ensures respectful collaboration through Code of Conduct; Encourages mentorship, documentation and open discussion
 - Corporate involvment, companies contribute to Linux to ensure it supports their hardware/software; the Linux Foundation supports the ecosystem with funding, training and events 
 
 ### [emacs/vim](https://github.com/emacs-mirror/emacs)
-
-### Python
-
-### rust
+- Development Workflow, contributor submits the patches via email to emacs-devel mailing list or through Savannah - the GNU project's hosting platform; patches are reviewed by maintaniers and other contributors; contributors are expected to write tests for new features and bug fixes to add to build-in test suite for testing; Merge and Release Cycle follows a major release every 1-2 years.
+- Package Ecosystem, supports third-party packages via package managers like MELPA(community-driven), ELPA(official GNU repository)
+- Tools and Infrastructure, use Git for version control; Bug Tracker is hosted on Debbugs (GNU's bug tracking system); uses mailing list for primary communication channel; documentation is maintained alongside with code, often updated with each patch
+- Community and Culture, has strong culture of learning, mentorship and documentation; the community values code clarity, backward compatibility and user freedom. 
 
 ### LLVM
 
-### neovim
+### Python
