@@ -135,7 +135,7 @@ It succeeds through its open source philosophy and it is free to use and modify 
 - Tools and Infrastructure, use Git for version control; Bug Tracker is hosted on Debbugs (GNU's bug tracking system); uses mailing list for primary communication channel; documentation is maintained alongside with code, often updated with each patch
 - Community and Culture, has strong culture of learning, mentorship and documentation; the community values code clarity, backward compatibility and user freedom. 
 
-### [LLVM](git clone https://github.com/llvm/llvm-project.git)
+### [LLVM](https://github.com/llvm/llvm-project)
 LLVM (originally "Low-Level Virtual Machine") is a modular, open-source compiler infrastructure used to build compilers and toolchains. 
 - LLVM Core is an umbrella project, which contains LLVM Core (intermediate representation, optimizer, and code generator), Clang (A frontend for C, C++ and Objective C), LLD (linker), libc++ (the C++ standard library), e.t.c.
 - LLVM Foundation oversees the project and ensures its sustanability; Maintainers are responsible for specific components; Contributors include individuals and companies like Apple, Google, Intel, AMD and Meta
