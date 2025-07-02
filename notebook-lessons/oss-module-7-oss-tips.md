@@ -143,3 +143,12 @@ LLVM (originally "Low-Level Virtual Machine") is a modular, open-source compiler
 - Use mailing lists for discussions and announcements; Use discord and meetups for real-time collaboration; use GitHub for bug tracker; Maintain the extensive and well maintained documentation, including tutorials and design docs. 
 
 ### Python
+The development of the Python programming language is a structured, community-driven process that balances openness with careful governance. 
+- Governance and Leadership, a group of five core developers elected annually forms **Python Steering Council**, who make final decisions on language changes and project direction; **Python Software Foundation (PSF)** manages the intellectual property and supports community, but does not control development decisions
+- Contribution team includes Core Developers with commit access to the main repository and Community Contributors who can propose changes, report bugs or submit patchs via GitHub, and discussions on mailing lists or discord
+- Python Enhancement Proposals (PEP) are formal documents that describe new features, implementation details, or changes to the language
+- Development workflow includes proposal, discussion, review, testing, merge and release. Python follows a 12-month release cycle for major versions through Alpha, Beta, Release Candidate (RC) and Final Release Cycles
+- Python uses automated CI/CD pipelines (e.g. Github Actions) to test across platforms; Tools like pytest, unittest, and coverage.py are commonly used
+- Vast ecosystem of libraries, Python Pakcage Index (PyPI) hosts over 400,000 packages
+- Conferences like PyCon and EuroPython foster collaboration and learning
+
