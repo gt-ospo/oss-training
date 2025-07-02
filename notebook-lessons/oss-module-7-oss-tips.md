@@ -122,8 +122,14 @@ Here you can find [template files](https://github.com/DSACMS/repo-scaffolder/tre
 ## Successful OSS Projects
 Here are some successful OSS projects which we can learn their successful tips. 
 ### Linux
+It succeeds through its open source philosophy and it is free to use and modify and heavily depends on community-driven development:
+- Structure of the Linux Community, with trusted maintainers responsible for specific subsystems and approves the patches; thousands of developer worldwide from individuals to employees of companies like intel, Red Hat, Google and IBM
+- Well defined development process, developers submit patches via Linux Kernel Mailing List (LKML); Maintainer review patches for qualify, style and correctness through automated tools and CI system test patches; Merging and Release Cycle
+- Tools and Platforms used, Linux was the reason Git was created; use LKML for discussion and patch submission; use Bugzilla, KernelCI, Patchwork for bug tracking, testing and patch management
+- Community and Governance, influence is earned through quality contributions; ensures respectful collaboration through Code of Conduct; Encourages mentorship, documentation and open discussion
+- Corporate involvment, companies contribute to Linux to ensure it supports their hardware/software; the Linux Foundation supports the ecosystem with funding, training and events 
 
-### emacs/vim
+### [emacs/vim](https://github.com/emacs-mirror/emacs)
 
 ### Python
 
