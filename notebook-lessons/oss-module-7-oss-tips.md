@@ -52,6 +52,9 @@ The Eclipse Foundation supports innovation in open source by providing:
 ### [Python Software Foundation](https://www.python.org/psf-landing/)
 The Python Software Foundation (PSF) is a non-profit organization that manages and supports the Python programming language and its global community. It plays a critical role in maintaining Python’s development, promoting its use, and supporting its community through funding, infrastructure, and outreach.
 
+### [LLVM Foundation](https://foundation.llvm.org/)
+It is a nonprofit organization dedicated to supporting the long-term health and growth of the LLVM Project, with core missions on supporting education in the field of compilers and tools; Fosters collaboration through meetups, forums, and mentorship; Maintains the technical infrastructure (e.g. servers, CI systems) and ensurs the project remains vendor-neutral and community-driven; Manages donations and sponsorships to fund the development. 
+
 | Foundation Name | Focuse Area | Open Source Hosting | Govenance     | Community Building| Training      | Financial and Legal Support| Promotion and Advocacy|
 | ------------------- | ---------- | -------------| ------------ | ----------- | ---------- |---------- | ---------- |
 | Apache Foundation | HTTP Server, Hadoop, Kafka, Maven, Tomcat|Yes, incubating|No|No|No|Yes|No|
@@ -60,6 +63,7 @@ The Python Software Foundation (PSF) is a non-profit organization that manages a
 | Gnome Foundation | GNOME desktop |Yes|Yes|Yes|No| Yes|Yes|
 | Eclipse Foundation | IDE, IoT and Edge, Cloud, Java Runtime |Yes|No|Yes|No|No|No|
 | Python Software Foundation | Python Language | Yes | Yes| Yes| No|Yes|Yes|
+| LLVM Foundation | Compilers and Tools|Yes|No|Yes|Yes|Yes|No|
                   
 
 
