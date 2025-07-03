@@ -9,66 +9,12 @@ In this lesson, attendees will learn the following:
 
 ## Sources
 * Eddie Jaoude [ Open Source Tips ](https://eddiejaoude.github.io/book-open-source-tips/), 2025
-* JLC Izquierdo [ A Survey of Software Foundations in Open Source](https://arxiv.org/pdf/2005.10063), 2020
 * [Open Source Project Maturity Model](https://www.usdigitalresponse.org/resources/cms-open-source-software)
 * [Schmidt Academy for Software Engineering](https://sase.caltech.edu/resources/index.html)
 * [Linux Professional Institution Open Source Essiential Training Material](https://learning.lpi.org/en/learning-materials/050-100/)
 * [pyOpenSci Peer Review](https://www.pyopensci.org/)
 
-## Open Source Foundations
-Most Open Source Software (OSS) projects rely on volunteer developer's contribution to evolve and largely depends on its developer retaintion and community building. But many OSS projects lack formal models to structure and manage the community around them. Software foundations can 
-* provide the legal and economical infrastructure for a OSS community
-* define internal regulations for activities, membership and decision-making process
-* provide the grounds for open and collaborative software development through mentoring 
-
-However, many foundations exist primarily to promote the free software movement or handle legal aspects, without engaging in daily project operations; foundations like Apache and Linux differ significantly in governance and support models; OSS projects still need to establish their own governance and contribution policies, even when under a foundation.
-There is a high variety of services and development strategies offered by software foundations. 
-
-
-
-### [Apache Foundation](https://www.apache.org/)
-The Apache Software Foundation (ASF) is one of the largest and most influential open-source organizations in the world. It provides support, governance, and infrastructure for hundreds of open-source projects and communities. It acts as a Subversion Coprporation.  
-It offers the infrastructure, public relation and travel assistant, legal and trademark servervice.  Project entries the foundation through incubator, there are 60 projects in the incububator. Mentoring is built in incubator. 
-
-### [Linux Foundation](https://www.linuxfoundation.org/)
-The Linux Foundation (LF) is a non-profit technology consortium that supports and promotes the growth of open source software, particularly in enterprise, infrastructure, and emerging technologies. 
-It mainly acts as umbrella for a number of smaller foundations, where inner organizations generally work in a stand-alone way (e.g., *OpenAPI initiative* or *Kubernetes*)
-
-### [CNCF - Cloud Native Computing Foundation](https://www.cncf.io/)
-It is part of Linux Foundation and plays major role in he cloud and DevOps ecosystem, its mission is to make cloud native computing ubiquitous. It is a vendor-neutral, non-profit organization that promotes the adoption of cloud-native technologies. It provides open source project hosting and governance; education and certification; community building and ecosystem development; security and best practices; research, landscape and tools. 
-
-### [GNOME](https://foundation.gnome.org/)
-The GNOME Foundation is a non-profit organization that supports the development and promotion of the GNOME desktop environment, a popular free and open-source graphical user interface used primarily on Linux systems. It provides technical and infrastructure support; Financial and Legal Support; Community Building; Promotion and Advocacy. 
-
-### [Eclipse](https://www.eclipse.org/)
-The Eclipse Foundation is a non-profit organization that supports a global community of open-source projects, especially in the areas of software development tools, IoT, automotive, edge computing, and enterprise software. While originally known for the Eclipse IDE, it now hosts a wide variety of projects across multiple domains. 
-The Eclipse Foundation supports innovation in open source by providing:
-
-    - Project hosting and governance
-    - Legal, IP, and infrastructure support
-    - Industry collaboration through working groups
-    - Developer tools like Eclipse IDE, Che, and Theia
-    - Focus on key areas: IDEs, IoT, automotive, Java, and cloud-native
-### [Python Software Foundation](https://www.python.org/psf-landing/)
-The Python Software Foundation (PSF) is a non-profit organization that manages and supports the Python programming language and its global community. It plays a critical role in maintaining Python’s development, promoting its use, and supporting its community through funding, infrastructure, and outreach.
-
-### [LLVM Foundation](https://foundation.llvm.org/)
-It is a nonprofit organization dedicated to supporting the long-term health and growth of the LLVM Project, with core missions on supporting education in the field of compilers and tools; Fosters collaboration through meetups, forums, and mentorship; Maintains the technical infrastructure (e.g. servers, CI systems) and ensurs the project remains vendor-neutral and community-driven; Manages donations and sponsorships to fund the development. 
-
-| Foundation Name | Focuse Area | Open Source Hosting | Govenance     | Community Building| Training      | Financial and Legal Support| Promotion and Advocacy|
-| ------------------- | ---------- | -------------| ------------ | ----------- | ---------- |---------- | ---------- |
-| Apache Foundation | HTTP Server, Hadoop, Kafka, Maven, Tomcat|Yes, incubating|No|No|No|Yes|No|
-| Linux Foundation|Linux, Cloud, Security, Blockchain, AI, networking|Yes|No|Yes|Yes|Yes|Yes|
-| CNCF Foundation | Cloud native|Yes,incubating|No|Yes|Yes|No|No|
-| Gnome Foundation | GNOME desktop |Yes|Yes|Yes|No| Yes|Yes|
-| Eclipse Foundation | IDE, IoT and Edge, Cloud, Java Runtime |Yes|No|Yes|No|No|No|
-| Python Software Foundation | Python Language | Yes | Yes| Yes| No|Yes|Yes|
-| LLVM Foundation | Compilers and Tools|Yes|No|Yes|Yes|Yes|No|
-                  
-
-
-
-
+             
 ## Open Source Tips
 This session contains some common DOs and Don'ts for Open Source software, these tips help the newcomers to avoid the pitfalls of Open Source development and learn from the community's collective wisdom. 
 
