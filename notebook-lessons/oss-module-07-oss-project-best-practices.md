@@ -3,9 +3,9 @@
 ## Goals
 
 In this lesson, attendees will learn the following:
-* Different types of open source foundations and how they interact with open source projects
 * Tips for a successful open source project
 * Lessons learned from long-term succssful projects
+* Get training and certificate
 
 ## Sources
 * Eddie Jaoude [ Open Source Tips ](https://eddiejaoude.github.io/book-open-source-tips/), 2025
@@ -103,4 +103,4 @@ The development of the Python programming language is a structured, community-dr
 - Conferences like PyCon and EuroPython foster collaboration and learning
 
 ## Self-Paced Training and certificate
-One can also take some trainings at [Linux Professional Institution](https://learning.lpi.org) and take exam to gain certificate on Open Source skill. 
+One can also take some trainings at [Linux Professional Institution](https://learning.lpi.org) and take exam to gain [certificate](https://www.lpi.org/our-certifications/open-source-essentials/) on Open Source skill. 
