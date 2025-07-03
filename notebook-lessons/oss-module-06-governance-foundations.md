@@ -8,7 +8,7 @@ In this lesson, you will learn the following:
 * Different types of open source foundations, their governance models, and how this impacts open source projects
 
 ## Sources
-* John Metric. [_Open Source Projects - Beyond Code_](https://learning.oreilly.com/library/view/open-source-projects/9781837636884/). O`Reilly Media, 2023.  Metric is the current director of program management for The Linux Foundation.
+* John Mertic. [_Open Source Projects - Beyond Code_](https://learning.oreilly.com/library/view/open-source-projects/9781837636884/). O`Reilly Media, 2023.  Metric is the current director of program management for The Linux Foundation.
 * Dave Neary, Josh Berkus, Katrina Novakovic, Bryan Behranshausen.  ["Understanding open source governance models"](https://www.redhat.com/en/blog/understanding-open-source-governance-models), Red Hat Blog, 2020.  Authors are from Red Hat's Open Source Programming Office.
 * Ross Gardler and Gabriel Hanganu. ["Governance Models"](http://oss-watch.ac.uk/resources/governancemodels).  OSS Watch, 2013.  Gardler is the former President of the Apache Foundation.
 * JLC Izquierdo [A Survey of Software Foundations in Open Source](https://arxiv.org/pdf/2004.10063), 2020
