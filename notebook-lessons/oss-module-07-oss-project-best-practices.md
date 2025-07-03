@@ -102,3 +102,5 @@ The development of the Python programming language is a structured, community-dr
 - Vast ecosystem of libraries, Python Pakcage Index (PyPI) hosts over 400,000 packages
 - Conferences like PyCon and EuroPython foster collaboration and learning
 
+## Self-Paced Training and certificate
+One can also take some trainings at [Linux Professional Institution](https://learning.lpi.org) and take exam to gain certificate on Open Source skill. 
