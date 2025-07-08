@@ -117,3 +117,6 @@ The development of the Python programming language is a structured, community-dr
 - Python uses automated CI/CD pipelines (e.g. Github Actions) to test across platforms; Tools like pytest, unittest, and coverage.py are commonly used
 - Vast ecosystem of libraries, Python Package Index (PyPI) hosts over 400,000 packages
 - Conferences like PyCon and EuroPython foster collaboration and learning.
+
+## Self-Paced Training and certificate
+You can take additional training at the [Linux Professional Institution](https://learning.lpi.org) and take and exam to receive a [certificate](https://www.lpi.org/our-certifications/open-source-essentials/) on open source skills. 

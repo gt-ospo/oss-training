@@ -31,7 +31,7 @@ We will aim to review your PR in 1-2 weeks with a goal of getting it merged with
 
 ### Code style conventions
 
-We currently have strong checks for code formatting but please try to be consistent with the existing codebase with your changes in terms of file naming and fixes to notebooks.
+We currently do not have strong checks for code formatting but please try to be consistent with the existing codebase with your changes in terms of file naming and fixes to notebooks.
 
 ## Community Channels for Discussion
 
