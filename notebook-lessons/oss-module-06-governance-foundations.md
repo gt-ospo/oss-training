@@ -7,8 +7,6 @@ In this lesson, you will learn the following:
 * Concepts of open source governance and how it is used to maintain open source projects
 * Different types of open source foundations, their governance models, and how this impacts open source projects
 
-#### 5.7: [Python Software Foundation](https://www.python.org/psf-landing/)
-The Python Software Foundation (PSF) is a non-profit organization that manages and supports the Python programming language and its global community. Like many modern open source foundations, the PSF builds on governance models and licensing concepts pioneered by the FSF. It plays a critical role in maintaining Python's development, promoting its use, and supporting its community through funding, infrastructure, and outreach.ontents
 - [1: What is open source governance?](#1:-What-is-open-source-governance?)
 - [2: Models of Governance](#2:-Models-of-Governance)
 - [3: Cathedral vs. Bazaar](#3:-Cathedral-vs.-Bazaar)
