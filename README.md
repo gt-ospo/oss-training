@@ -61,7 +61,7 @@ The notebooks can also be loaded using [Google Colab](https://colab.research.goo
 
 ## 🤝 Contributing
 
-We welcome contributions to improve these training materials! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on how to submit improvements, report issues, or suggest new content.
+We welcome contributions to improve these training materials! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on how to submit improvements, report issues, or suggest new content. All contributors are expected to follow our [Code of Conduct](CODE_OF_CONDUCT.md) to maintain a welcoming and inclusive environment.
 
 ## 📄 License
 
