@@ -1,14 +1,16 @@
 <div align="center">
 
+![GT OSPO logo](img/logo-gt-ospo.png)
+
+# OSS Training from GT OSPO
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![GitHub stars](https://img.shields.io/github/stars/gt-ospo/oss-training?style=social)](https://github.com/gt-ospo/oss-training/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/gt-ospo/oss-training?style=social)](https://github.com/gt-ospo/oss-training/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/gt-ospo/oss-training)](https://github.com/gt-ospo/oss-training/issues)
 [![GitHub contributors](https://img.shields.io/github/contributors/gt-ospo/oss-training)](https://github.com/gt-ospo/oss-training/graphs/contributors)
 
-# OSS Training from GT OSPO
 
-![GT OSPO logo](img/logo-gt-ospo.png)
+
 
 </div>
 
@@ -18,15 +20,17 @@ This repository contains comprehensive training modules for getting started with
 
 | Module | Title | Description | Links |
 |--------|-------|-------------|-------|
-| **00** | **Interacting with Git and GitHub** | Introduction to Git concepts, branching, and merging fundamentals | [📖 View](notebook-lessons/oss-module-00-interacting-with-git.ipynb) · [🔗 NBViewer](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-00-interacting-with-git.ipynb) · [🚀 Colab](https://colab.research.google.com/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-00-interacting-with-git.ipynb) |
-| **01** | **Git Basics** | Fundamental Git operations, repositories, and version control workflows | [📖 View](notebook-lessons/oss-module-01-git.ipynb) · [🔗 NBViewer](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-01-git.ipynb) · [🚀 Colab](https://colab.research.google.com/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-01-git.ipynb) |
-| **02** | **Git Workflows: Issues, Forks, and Pull Requests** | Collaborative workflows on GitHub including issues, forks, and pull requests | [📖 View](notebook-lessons/oss-module-02-forks.ipynb) · [🔗 NBViewer](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-02-forks.ipynb) · [🚀 Colab](https://colab.research.google.com/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-02-forks.ipynb) |
-| **03** | **Testing Code: What, Why and How To** | Comprehensive guide to software testing including unit, integration, and acceptance testing | [📖 View](notebook-lessons/oss-module-03-testing-code.ipynb) · [🔗 NBViewer](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-03-testing-code.ipynb) · [🚀 Colab](https://colab.research.google.com/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-03-testing-code.ipynb) |
-| **04** | **Continuous Integration and Continuous Delivery** | CI/CD concepts, GitHub Actions, and automated testing workflows | [📖 View](notebook-lessons/oss-module-04-ci-cd.ipynb) · [🔗 NBViewer](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-04-ci-cd.ipynb) · [🚀 Colab](https://colab.research.google.com/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-04-ci-cd.ipynb) |
-| **05** | **Code Review** | Best practices for conducting effective code reviews and maintaining code quality | [📖 View](notebook-lessons/oss-module-05-code-review.ipynb) · [🔗 NBViewer](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-05-code-review.ipynb) · [🚀 Colab](https://colab.research.google.com/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-05-code-review.ipynb) |
-| **06** | **Governance Foundations** | Open source governance models, foundations, and decision-making processes | [📖 View](notebook-lessons/oss-module-06-governance-foundations.md) · [🔗 NBViewer](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-06-governance-foundations.md) |
-| **07** | **OSS Project Best Practices** | Tips for successful open source projects and lessons from established projects | [📖 View](notebook-lessons/oss-module-07-oss-project-best-practices.md) · [🔗 NBViewer](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-07-oss-project-best-practices.md) |
-| **08** | **Open Source Lifecycle and Sustainability** | Understanding OSS project lifecycle, sustainability evaluation, and ecosystem dynamics | [📖 View](notebook-lessons/oss-module-08-foss-code-life.ipynb) · [🔗 NBViewer](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-08-foss-code-life.ipynb) · [🚀 Colab](https://colab.research.google.com/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-08-foss-code-life.ipynb) |
+| **00** | **Interacting with Git and GitHub** | Introduction to Git concepts, branching, and merging fundamentals | [![View Static Page](https://img.shields.io/badge/View-Static%20Page-blue)](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-00-interacting-with-git.ipynb) <br> [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-00-interacting-with-git.ipynb) |
+| **01** | **Git Basics** | Fundamental Git operations, repositories, and version control workflows | [![View Static Page](https://img.shields.io/badge/View-Static%20Page-blue)](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-01-git.ipynb) <br> [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-01-git.ipynb) |
+| **02** | **Git Workflows: Issues, Forks, and Pull Requests** | Collaborative workflows on GitHub including issues, forks, and pull requests | [![View Static Page](https://img.shields.io/badge/View-Static%20Page-blue)](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-02-forks.ipynb) <br> [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-02-forks.ipynb) |
+| **03** | **Testing Code: What, Why and How To** | Comprehensive guide to software testing including unit, integration, and acceptance testing | [![View Static Page](https://img.shields.io/badge/View-Static%20Page-blue)](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-03-testing-code.ipynb) <br> [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-03-testing-code.ipynb) |
+| **04** | **Continuous Integration and Continuous Delivery** | CI/CD concepts, GitHub Actions, and automated testing workflows | [![View Static Page](https://img.shields.io/badge/View-Static%20Page-blue)](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-04-ci-cd.ipynb) <br> [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-04-ci-cd.ipynb) |
+| **05** | **Code Review** | Best practices for conducting effective code reviews and maintaining code quality | [![View Static Page](https://img.shields.io/badge/View-Static%20Page-blue)](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-05-code-review.ipynb) <br> [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-05-code-review.ipynb) |
+| **06** | **Governance Foundations** | Open source governance models, foundations, and decision-making processes | [![View Static Page](https://img.shields.io/badge/View-Static%20Page-blue)](notebook-lessons/oss-module-06-governance-foundations.md) |
+| **07** | **OSS Project Best Practices** | Tips for successful open source projects and lessons from established projects | [![View Static Page](https://img.shields.io/badge/View-Static%20Page-blue)](notebook-lessons/oss-module-07-oss-project-best-practices.md) |
+| **08** | **Open Source Lifecycle and Sustainability** | Understanding OSS project lifecycle, sustainability evaluation, and ecosystem dynamics | [![View Static Page](https://img.shields.io/badge/View-Static%20Page-blue)](https://nbviewer.org/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-08-foss-code-life.ipynb) <br> [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gt-ospo/oss-training/blob/main/notebook-lessons/oss-module-08-foss-code-life.ipynb) |
+
+---
 
 ## 🚀 Getting Started
 
