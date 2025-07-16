@@ -260,14 +260,12 @@ The Free Software Foundation (FSF) is a nonprofit organization founded in 1985 b
 
 The FSF's contributions to the software ecosystem are fundamental and far-reaching. Linux's success, for example, would not have been possible without the FSF's GNU tools: the GCC compiler, GNU coreutils, bash shell, and other essential components that provided the complete userland for a functioning operating system. When Linus Torvalds created the Linux kernel, he built upon a decade of FSF infrastructure.
 
-The FSF maintains the GNU General Public License (GPL) family of licenses, which are among the most widely used free software licenses and served as templates for many other open source licenses. The organization also oversees the GNU Project, which develops a complete free operating system and essential tools. Key activities include:
+The FSF maintains the GNU General Public License (GPL) family of licenses, which are among the most widely used free software licenses and served as templates for many other open source licenses. The organization also oversees the GNU Project, which develops a complete free operating system and essential tools - and other software freedom related projects. Key activities include:
 
 - **License stewardship**: Maintaining and updating the GPL, LGPL, and other free software licenses that became the foundation for modern open source licensing
 - **GNU Project governance**: Overseeing development of GNU tools like GCC, Emacs, and other core Unix-like system components that enabled projects like Linux
 - **Advocacy and education**: Promoting software freedom through campaigns, educational resources, and policy advocacy that established the principles later adopted by the broader open source movement
 - **Legal support**: Providing guidance on license compliance and defending software freedom in legal contexts
-
-The FSF's governance model combines foundation-backed structure with strong ideological principles, emphasizing user freedom over pragmatic development concerns. This model influenced how many subsequent foundations approach the balance between technical and philosophical considerations.
 
 ### 5.3. [Linux Foundation](https://www.linuxfoundation.org/)
 The Linux Foundation (LF) is a non-profit technology consortium that supports and promotes the growth of open source software, particularly in enterprise, infrastructure, and emerging technologies.
@@ -304,11 +302,11 @@ It is a nonprofit organization dedicated to supporting the long-term health and 
 
 | Foundation Name | Focus Area | Open Source Hosting | Governance | Community Building | Training | Financial and Legal Support | Promotion and Advocacy |
 |---|---|---|---|---|---|---|---|
-| Free Software Foundation | GNU Project, software freedom advocacy, GPL licensing - **ORIGINAL** organization (1985) | Yes | Yes | Yes | No | Yes | Yes |
+| Free Software Foundation | GNU Project, software freedom advocacy, GPL licensing | Yes | Yes | Yes | No | Yes | Yes |
 | Apache Foundation | HTTP servers, Hadoop, Kafka, Maven, Tomcat | Yes, incubating | No | No | No | Yes | No |
 | Linux Foundation | Linux, cloud computing, security, blockchain, AI, networking | Yes | No | Yes | Yes | Yes | Yes |
 | CNCF Foundation | Cloud computing | Yes, incubating | No | Yes | Yes | No | No |
-| GNOME Foundation | GNOME desktop | Yes | Yes | Yes | No | Yes | Yes |
+| GNOME Foundation | GNOME desktop and applications | Yes | Yes | Yes | No | Yes | Yes |
 | Eclipse Foundation | IDE, IoT and Edge, Cloud, Java Runtime | Yes | No | Yes | No | No | No |
 | Python Software Foundation | Python Language | Yes | Yes | Yes | No | Yes | Yes |
 | LLVM Foundation | Compilers and Tools | Yes | No | Yes | Yes | Yes | No |
