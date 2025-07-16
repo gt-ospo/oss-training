@@ -1,4 +1,4 @@
-# Module 6: Governance
+# Module 7: Governance
 
 ## Goals
 
