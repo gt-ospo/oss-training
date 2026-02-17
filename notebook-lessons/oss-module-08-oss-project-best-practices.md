@@ -1,4 +1,4 @@
-# OSS Project Best Practices
+# Module 08: OSS Project Best Practices
 
 ## Goals
 
