@@ -58,6 +58,162 @@ These tips can be important to make your project welcoming for new users and pot
 * Not Investing in Automation - We don't necessarily mean using AI here! It's important to automate common tasks like issue generation, pull requests, and testing of your code via CI/CD pipelines. Make it easy for others to contribute and for you to accept new code.
 * Ignoring your own Code of Conduct - Maintaining an OSS project requires treating users and contributors with respect. Set a code of conduct and make sure to lead by example. Define clear rules on commits, discussion, and community engagement so there is no ambiguity in how others interact with your project.  
 
+## Supply Chain Security and Advanced Tools
+
+As open source projects mature and become critical dependencies for others, supply chain security becomes increasingly important. Beyond the OpenSSF Scorecard, several advanced tools and practices help ensure the integrity and safety of your software supply chain.
+
+### SBOMs and Attestations
+
+**Software Bill of Materials (SBOM)** and **attestations** provide transparency into your software's composition and provenance.
+
+#### SBOMs (Software Bill of Materials)
+- **Definition**: A complete inventory of all components, libraries, and dependencies in your software
+- **Formats**: 
+  - **CycloneDX**: XML/JSON-based, good for detailed component information
+  - **SPDX**: Standard format for open source license and component information
+- **Tools for Generation**:
+  - `cyclonedx-npm` or `cyclonedx-maven`: Generate SBOMs from your package managers
+  - `syft`: Multi-language SBOM generation tool
+  - GitHub's built-in dependency scanning (produces SBOM-like information)
+- **Benefits**:
+  - Enables vulnerability tracking across your supply chain
+  - Improves transparency for your users and maintainers
+  - Helps identify licensing compliance issues
+  - Required for federal SLSA compliance
+
+#### Attestations
+- **Definition**: Cryptographic evidence that an artifact (like a release) was built/signed by a trusted process
+- **Use Cases**:
+  - Proving that a release was built by your CI/CD pipeline
+  - Verifying the integrity of compiled binaries
+  - Establishing chain of custody for artifacts
+- **Tools**:
+  - `sigstore`: Free PKI infrastructure for signing software artifacts (includes `cosign`)
+  - GitHub's OIDC integration for signing releases
+  - `in-toto`: Framework for recording and verifying supply chain metadata
+
+### Static Analysis with Semgrep
+
+**Semgrep** is a static analysis tool that helps identify security vulnerabilities, code patterns, and potential bugs in your codebase.
+
+#### What is Semgrep?
+- **Purpose**: Scan code for security issues, code quality problems, and compliance violations
+- **Language Support**: Python, JavaScript, TypeScript, Java, Go, C, Ruby, and more
+- **Key Features**:
+  - Write custom rules in YAML (simple, human-readable)
+  - Built-in rules from the Semgrep registry
+  - Fast scanning without compilation
+  - IDE integration and CI/CD pipeline integration
+
+#### Core Benefits for OSS Projects
+- **Early Detection**: Find security issues before they reach production
+- **Consistent Standards**: Enforce code patterns and best practices across your project
+- **Integration**: Easily add to GitHub Actions for automated scanning
+- **Community Rules**: Leverage rules shared by the open source community
+
+#### Getting Started
+```yaml
+# Example GitHub Actions workflow
+name: Semgrep Scan
+on: [push, pull_request]
+jobs:
+  semgrep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: returntocorp/semgrep-action@v1
+        with:
+          config: >-
+            p/owasp-top-ten
+            p/security-audit
+```
+
+### SLSA - Supply Chain Levels for Software Artifacts
+
+**SLSA** (pronounced "salsa") is a framework and checklist for securing software artifacts throughout the supply chain.
+
+#### SLSA Levels
+The framework defines 4 progressive levels of supply chain security:
+
+| Level | Requirements | Use Case |
+|-------|--------------|----------|
+| **Level 1** | Build provenance available | Basic transparency in builds |
+| **Level 2** | Signed provenance; source control; change log | Automated CI/CD with version control |
+| **Level 3** | Isolated build; hardened build tools; provenance inspection | Enterprise and critical projects |
+| **Level 4** | 2-person review; hermeticity; reproducible builds | Highest security for critical infrastructure |
+
+#### Implementing SLSA
+- **Provenance**: Use GitHub Actions to generate and sign build provenance
+- **Integrity Verification**: Users can verify that releases were built by your CI/CD (not a compromised machine)
+- **Tools**: 
+  - `slsa-framework/github-actions`: Pre-built actions for GitHub CI/CD
+  - `slsa-framework/slsa-verifier`: Tool to verify SLSA provenance
+- **Starting Point**: Achieve Level 2 with proper CI/CD automation and signed releases
+
+#### Why SLSA Matters for OSS
+- **Trust**: Gives users cryptographic proof of build legitimacy
+- **Compliance**: Required for federal and enterprise supply chain requirements
+- **Transparency**: Clear documentation of how artifacts were produced
+
+### Gittuf - Security Framework for Git
+
+**Gittuf** is a security framework that brings authentication and authorization to Git repositories, protecting against supply chain attacks at the repository level.
+
+#### What Gittuf Provides
+- **Commit Signing & Verification**: Ensure all commits are authenticated and authorized
+- **Role-Based Access**: Define who can push to which branches and perform which actions
+- **Delegation**: Establish trust chains for distributed/community projects
+- **Tamper Detection**: Detect unauthorized changes to the repository
+- **Key Management**: Secure handling of signing keys
+
+#### Core Concepts
+- **Metadata Files**: Git credentials and authorization policies stored securely in your repository
+- **Delegations**: Grant authority to trusted contributors for specific branches or paths
+- **Offline Verification**: Users can verify repository integrity even without online key lookups
+- **Git Integration**: Works seamlessly with standard Git workflows
+
+#### Gittuf vs. Traditional Git
+| Aspect | Traditional Git | With Gittuf |
+|--------|----------------|----|
+| Commit Verification | Author email (not cryptographic) | Cryptographic signatures with role enforcement |
+| Branch Protection | GitHub/GitLab rules only | Cryptographic rules in repository |
+| Key Rotation | Manual, error-prone | Managed through delegation policies |
+| Offline Verification | Not possible | Possible with metadata |
+| Community Maintainers | Trust-based | Role-based with clear policies |
+
+#### Getting Started with Gittuf
+- Install: Available as a command-line tool
+- Initialize: Set up metadata for your repository
+- Delegate: Grant signing authority to trusted maintainers
+- Enforce: Require gittuf verification in your CI/CD workflows
+
+#### Real-World Scenario
+For a distributed OSS project with multiple maintainers:
+```
+maintainer-1 has authority over src/
+maintainer-2 has authority over docs/
+lead-maintainer has authority over releases/
+```
+This setup provides fine-grained control while maintaining decentralization.
+
+### Integrated Workflow: Using These Tools Together
+
+A comprehensive supply chain security strategy combines these tools:
+
+1. **Gittuf**: Protect repository integrity (authenticate developers)
+2. **Semgrep**: Scan code for vulnerabilities (automated code review)
+3. **SLSA**: Document and sign builds (prove artifact provenance)
+4. **SBOM + Attestations**: Inventory and verify components (transparency and auditability)
+
+**Example CI/CD Pipeline**:
+- Gittuf verifies the commit is authorized
+- Semgrep scans the code for security issues
+- Build process creates and signs artifacts (SLSA)
+- SBOM generation documents all dependencies
+- Artifacts and attestations published together
+- Users can verify build provenance and scan for known vulnerabilities
+
+This layered approach provides defense in depth against supply chain attacks.
 
 ## Open Source Project Maturity Model
 
