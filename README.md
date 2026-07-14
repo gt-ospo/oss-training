@@ -51,6 +51,8 @@ To run the same notebook checks used in CI and pre-commit:
 pip install -r requirements-notebook-tests.txt
 pre-commit install
 pre-commit run --all-files
+#Notebook tests will run locally and return errors or passing state
+Execute training notebooks...............................................Passed
 ```
 
 ### 🌐 Running with Google Colab
