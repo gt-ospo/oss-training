@@ -7,3 +7,4 @@ gradebook/
 pyproject.toml
 test/
 venv/
+.coverage
