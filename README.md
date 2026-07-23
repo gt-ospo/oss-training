@@ -45,6 +45,16 @@ pip install jupyter jupyterlab bash_kernel
 python -m bash_kernel.install
 ```
 
+To run the same notebook checks used in CI and pre-commit:
+
+```bash
+pip install -r requirements-notebook-tests.txt
+pre-commit install
+pre-commit run --all-files
+#Notebook tests will run locally and return errors or passing state
+Execute training notebooks...............................................Passed
+```
+
 ### 🌐 Running with Google Colab
 
 The notebooks can also be loaded using [Google Colab](https://colab.research.google.com/), a hosted Jupyter notebook service from Google. To run these notebooks using Colab:

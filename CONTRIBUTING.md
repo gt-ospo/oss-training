@@ -33,6 +33,16 @@ We will aim to review your PR in 1-2 weeks with a goal of getting it merged with
 
 We currently do not have strong checks for code formatting but please try to be consistent with the existing codebase with your changes in terms of file naming and fixes to notebooks.
 
+### Notebook checks
+
+Notebook changes are exercised in GitHub Actions and can also be run locally before commit with pre-commit.
+
+```bash
+pip install -r requirements-notebook-tests.txt
+pre-commit install
+pre-commit run --all-files
+```
+
 ## Community Channels for Discussion
 
 The primary discussion channels for this project are via [GitHub Issues](https://github.com/gt-ospo/oss-training/issues).

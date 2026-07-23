@@ -1,0 +1,6 @@
+pytest
+nbmake
+jupyter
+jupyterlab
+ipykernel
+bash_kernel

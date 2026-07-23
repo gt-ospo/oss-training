@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: notebook-tests
+        name: Execute training notebooks
+        entry: python scripts/run_notebook_tests.py
+        language: system
+        pass_filenames: false
+        always_run: true
